@@ -7,7 +7,7 @@ public class LowCarbPowerService {
     String rate;
 
  public String geneRate(){
-    double random = 1.00 + Math.random();
+    double random = 0.20 + Math.random() * 0.20;
     rate = String.format("%.2f", random);
      System.out.println(rate);
     return rate;
