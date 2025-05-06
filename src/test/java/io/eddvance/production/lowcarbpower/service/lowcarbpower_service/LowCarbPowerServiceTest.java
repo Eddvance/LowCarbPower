@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LowCarbPowerServiceTest {
 
     private LowCarbPowerService service;
+
     @Autowired
     public LowCarbPowerServiceTest(LowCarbPowerService service) {
         this.service = service;
