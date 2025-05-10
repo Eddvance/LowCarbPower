@@ -4,12 +4,20 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LowCarbPowerService {
-    String rate;
+    String greenRate;
+    String blackRate;
+    String finalRate;
 
- public String geneRate(){
+//generation du prix de l'energie verte
+ public String greenGeneRate(){
     double random = 0.20 + Math.random() * 0.20;
-    rate = String.format("%.2f", random);
-     System.out.println(rate);
-    return rate;
+    greenRate = String.format("%.2f", random);
+     System.out.println(greenRate);
+    return greenRate;
+ }
+//recuperation du prix de l'energie noire
+ public String getBlackRate(){
+
+     return blackRate;
  }
 }
