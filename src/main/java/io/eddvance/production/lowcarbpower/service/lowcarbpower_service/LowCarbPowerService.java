@@ -15,7 +15,7 @@ public class LowCarbPowerService {
      System.out.println(greenRate);
     return greenRate;
  }
-//recuperation du prix de l'energie noire
+//recuperation du prix de l'energie carbonnee
  public String getBlackRate(){
 
      return blackRate;
