@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 public class LowCarbPowerService {
     String greenRate;
     String blackRate;
-    String finalRate;
 
 //generation du prix de l'energie verte
  public String greenGeneRate(){
