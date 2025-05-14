@@ -16,6 +16,6 @@ public class LowCarbPowerResource {
 
     @GetMapping("/rate")
     public String getRate(){
-        return lowCarbPowerService.geneRate();
+        return lowCarbPowerService.greenGeneRate();
     }
 }
