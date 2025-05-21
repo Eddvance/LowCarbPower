@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/lowcarbpower")
+@RequestMapping("/low-carb-power")
 public class LowCarbPowerResource {
     private final LowCarbPowerService lowCarbPowerService;
     public LowCarbPowerResource(LowCarbPowerService lowCarbPowerService) {

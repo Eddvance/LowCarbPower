@@ -15,12 +15,6 @@ public class LowCarbPowerService {
         return greenRate;
     }
 
-    //recuperation du prix de l'energie carbonnee a CoalFired
-    public String getCarbonRate() {
-
-        return blackRate;
-    }
-
     //calcul energie carbonnee provisoire
     public String getCarbonFinalRate() {
         Double bloc256 = 256.00;
