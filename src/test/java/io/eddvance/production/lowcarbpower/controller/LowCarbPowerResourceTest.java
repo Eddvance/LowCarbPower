@@ -19,7 +19,7 @@ class LowCarbPowerResourceTest {
 
     @Test
     void testGetRate() {
-        String url = "http://localhost:" + port + "/lowcarbpower/rate";
+        String url = "http://localhost:" + port + "/low-carb-power/rate";
         String response = this.restTemplate.getForObject(url, String.class);
 
         assertThat(response).isNotNull();

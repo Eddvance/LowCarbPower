@@ -18,14 +18,14 @@ class LowCarbPowerServiceTest {
 
     @Test
     void testGeneRateFormat() {
-        String rate = service.geneRate();
+        String rate = service.greenGeneRate();
         assertTrue(rate.matches("\\d\\.\\d{2}"), "Le format doit être 0.00");
     }
 
     @Test
     void testGeneRateWithinExpectedRange() {
         for (int i = 0; i < 100; i++) {
-            String rateStr = service.geneRate();
+            String rateStr = service.greenGeneRate();
             double rate = Double.parseDouble(rateStr);
             assertTrue(rate >= 0.20 && rate <= 0.40, "Le taux doit être entre 0.20 et 0.40 : " + rate);
         }
