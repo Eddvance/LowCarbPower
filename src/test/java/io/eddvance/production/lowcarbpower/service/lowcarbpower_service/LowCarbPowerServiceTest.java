@@ -1,5 +1,6 @@
 package io.eddvance.production.lowcarbpower.service.lowcarbpower_service;
 
+import io.eddvance.production.lowcarbpower.service.LowCarbPowerService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.beans.factory.annotation.Autowired;

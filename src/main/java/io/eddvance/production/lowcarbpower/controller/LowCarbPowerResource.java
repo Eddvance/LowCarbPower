@@ -1,6 +1,6 @@
 package io.eddvance.production.lowcarbpower.controller;
 
-import io.eddvance.production.lowcarbpower.service.lowcarbpower_service.LowCarbPowerService;
+import io.eddvance.production.lowcarbpower.service.LowCarbPowerService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

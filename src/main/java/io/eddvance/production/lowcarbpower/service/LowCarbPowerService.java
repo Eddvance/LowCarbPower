@@ -1,4 +1,4 @@
-package io.eddvance.production.lowcarbpower.service.lowcarbpower_service;
+package io.eddvance.production.lowcarbpower.service;
 
 import org.springframework.stereotype.Service;
 
